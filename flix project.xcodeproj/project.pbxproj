@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18D4700148ABF3EA672A4559 /* Pods_flix_project_flix_projectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F645B42C3647C2B28DB6FDE4 /* Pods_flix_project_flix_projectUITests.framework */; };
+		51A4622A26F7E1E8001A1DBF /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4622926F7E1E8001A1DBF /* MovieDetailsViewController.swift */; };
 		51C7E73A26EEE4020055B648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7E73926EEE4020055B648 /* AppDelegate.swift */; };
 		51C7E73C26EEE4020055B648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C7E73B26EEE4020055B648 /* SceneDelegate.swift */; };
 		51C7E74126EEE4020055B648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C7E73F26EEE4020055B648 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		1901EEF84F30D9CEDF75C1E1 /* Pods-flix project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix project.debug.xcconfig"; path = "Target Support Files/Pods-flix project/Pods-flix project.debug.xcconfig"; sourceTree = "<group>"; };
 		324E3B25C8D6DE27C82F0A06 /* Pods-flix project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix project.release.xcconfig"; path = "Target Support Files/Pods-flix project/Pods-flix project.release.xcconfig"; sourceTree = "<group>"; };
 		3B4C449D09431973A7DE8387 /* Pods-flix project-flix projectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix project-flix projectUITests.release.xcconfig"; path = "Target Support Files/Pods-flix project-flix projectUITests/Pods-flix project-flix projectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51A4622926F7E1E8001A1DBF /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		51C7E73626EEE4020055B648 /* flix project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flix project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C7E73926EEE4020055B648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C7E73B26EEE4020055B648 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 				9D2A568BC8FB98359ED4997E /* Pods-flix projectTests.debug.xcconfig */,
 				B9739141FA9C284E1A084D4A /* Pods-flix projectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +141,7 @@
 				51C7E74726EEE4020055B648 /* Info.plist */,
 				51C7E76726EEE6E40055B648 /* MoviesViewController.swift */,
 				51C7E76926EEF2740055B648 /* MovieCell.swift */,
+				51A4622926F7E1E8001A1DBF /* MovieDetailsViewController.swift */,
 			);
 			path = "flix project";
 			sourceTree = "<group>";
@@ -415,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A4622A26F7E1E8001A1DBF /* MovieDetailsViewController.swift in Sources */,
 				51C7E73A26EEE4020055B648 /* AppDelegate.swift in Sources */,
 				51C7E73C26EEE4020055B648 /* SceneDelegate.swift in Sources */,
 				51C7E76A26EEF2740055B648 /* MovieCell.swift in Sources */,
@@ -595,8 +598,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L94PH7Q9WC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "flix project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -611,6 +616,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.flix-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,8 +629,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L94PH7Q9WC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "flix project/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -639,6 +647,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.flix-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
